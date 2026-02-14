@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const http = axios.create({
-  baseURL: "https://contact-app-shahbaj.netlify.app/",
+  baseURL: "http://localhost:5000",
   headers: { "Content-Type": "application/json" }
 });
